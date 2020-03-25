@@ -1,0 +1,70 @@
+body {
+  font-family: 'Brandon Grotesque', 'Helvetica', sans-serif;
+  background-color: #000;
+  padding: 1rem;
+}
+
+
+/*-----Main-----*/
+
+.container {
+  display: grid;
+  grid-auto-rows: minmax(auto, 1020px);
+  grid-template-rows: repeat(3, 0fr);
+  font-weight: bold;
+  border-radius: 15px;
+  background-color: #fff;
+  padding-bottom: 100px;
+}
+
+#time, #clock, #clock-2 {
+  text-align: center;
+  padding: none;
+  margin: none;
+}
+
+
+/*-----Dag fases-----*/
+
+#time {
+  background: #4cc2fc;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  max-width: auto;
+  max-height: 600px;
+  border-radius: 15px;
+}
+
+#sky {
+  margin-top: 400px;
+}
+
+
+/*-----Klok-----*/
+
+#clock {
+  font-size: 10vw;
+}
+
+#clock-2 {
+  font-size: 6vw;
+}
+
+
+/*-----Schermbreedtes-----*/
+
+@media (min-width: 250px) {
+  #time, #clock, #clock-2 {
+
+  }
+}
+
+@media (min-width: 2560px) {
+  .dashboard {
+    margin-left: auto;
+    margin-right: auto;
+    width: 2560px;
+  }
+}
