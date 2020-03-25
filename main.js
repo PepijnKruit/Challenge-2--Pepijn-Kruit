@@ -19,13 +19,13 @@ function realtimeClock() {
 
 }
 
+window.onload=realtimeClock;
+
 
 
 
 var today = new Date();
 
-var maanden = new Array('Jan.', 'Feb.', 'Mrt.', 'Apr.', 'Mei', 'Jun.', 'Jul.', 'Aug.', 'Sep.', 'Okt.', 'Nov.', 'Dec.');
-
-//alert(maanden[2]);
+var maanden = new Array('Jan.', 'Feb.', 'Mar.', 'Apr.', 'May', 'Jun.', 'Jul.', 'Aug.', 'Sept.', 'Oct.', 'Nov.', 'Dec.');
 
 document.getElementById('clock-2').innerHTML = today.getDate() + ' ' + maanden[today.getMonth()] + ' ' +today.getFullYear();
