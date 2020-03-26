@@ -61,12 +61,6 @@ body {
 
 /*-----Schermbreedtes-----*/
 
-@media (min-width: 250px) {
-  #time, #clock, #clock-2 {
-
-  }
-}
-
 @media (min-width: 850px) {
   #achtergrond {
     margin: 75px;
