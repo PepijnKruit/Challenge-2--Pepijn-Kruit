@@ -1,7 +1,8 @@
 var now = new Date();
 var hours = now.getHours();
 
-document.bgColor = "#ffffff;";
+
+
 
 if (hours > 6 && hours < 7){
 	document.write ('<body style="background-color: #ffbf4d;">');

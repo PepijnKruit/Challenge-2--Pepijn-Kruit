@@ -1,7 +1,11 @@
+/*-----General-----*/
+
 body {
   font-family: 'Brandon Grotesque', 'Helvetica', sans-serif;
   padding: 1rem;
 }
+
+
 
 
 /*-----Main-----*/
@@ -11,7 +15,7 @@ body {
   grid-template-rows: repeat(3, 0fr);
   font-weight: bold;
   border-radius: 15px;
-  padding-bottom: 100px;
+  margin-top: 30%;
 }
 
 #time, #clock, #clock-2 {
@@ -19,6 +23,8 @@ body {
   padding: none;
   margin: none;
 }
+
+
 
 
 /*-----Logo-----*/
@@ -35,60 +41,69 @@ body {
 }
 
 #achtergrond {
-  margin: 200px;
+  margin: 8%;
+  max-width: 100%;
 }
 
 #logo {
-  max-width: 660px;
-  max-height: 81.2px;
+  max-width: 80%;
+  max-height: 81px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 150px;
+  margin-top: 50px;
 }
+
+
 
 
 /*-----Klok-----*/
 
 #clock {
-  font-size: 10vw;
+  font-size: 8vw;
 }
 
 #clock-2 {
-  font-size: 6vw;
+  font-size: 4vw;
 }
+
+
 
 
 /*-----Schermbreedtes-----*/
 
-@media (min-width: 850px) {
-  #achtergrond {
-    margin: 75px;
+@media (min-width: 450px) {
+  #logo {
+    margin-top: 7%;
   }
 
-  #logo {
-    margin-top: 75px;
+  .container {
+    margin-top: 20%;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    margin-top: 5%;
   }
 }
 
 @media (min-width: 1300px) {
+  #logo {
+    max-width: 90%;
+  }
+
   .container {
-    padding-bottom: 50px;
-  }
-
-  #clock {
-    font-size: 8vw;
-  }
-
-  #clock-2 {
-    font-size: 4vw;
+    margin-top: 0%;
   }
 }
 
-@media (min-width: 2560px) {
-  .dashboard {
-    margin-left: auto;
-    margin-right: auto;
-    width: 2560px;
+@media (min-width: 2000px) {
+  #logo {
+    margin-top: 100px;
+  }
+
+  #achtergrond {
+    margin: 100px;
   }
 }
