@@ -70,7 +70,7 @@ body {
 
 
 
-/*-----Schermbreedtes-----*/
+/*-----Mobiele versie-----*/
 
 @media (min-width: 450px) {
   #logo {
@@ -82,11 +82,21 @@ body {
   }
 }
 
+
+
+
+/*-----Ipad versie-----*/
+
 @media (min-width: 768px) {
   .container {
     margin-top: 5%;
   }
 }
+
+
+
+
+/*-----Laptop versie-----*/
 
 @media (min-width: 1300px) {
   #logo {
@@ -97,6 +107,11 @@ body {
     margin-top: 0%;
   }
 }
+
+
+
+
+/*-----Maximale breedte-----*/
 
 @media (min-width: 2000px) {
   #logo {
